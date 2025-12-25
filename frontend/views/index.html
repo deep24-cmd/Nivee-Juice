@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivee Juices - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919988330544" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">🌿 Nivee Juices</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cart">
+                            Cart <span class="cart-badge" id="cart-badge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item divider d-none d-lg-block mx-2"
+                        style="border-right: 1px solid #ddd; height: 20px;"></li>
+                    <li class="nav-item d-none d-lg-flex navbar-social">
+                        <a href="https://www.facebook.com/people/Nivee-Amla/pfbid02zaMCLJ8NgFNBjZdYvRqVmJaXD6wn28gfLUiQbo2pvUU3jyiL9TQHTSSuh3EYNnczl/"
+                            target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/niveeamlajuice" target="_blank" title="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919988330544" target="_blank" title="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Welcome to Nivee Juices</h1>
+            <p>Pure, Natural Amla Juice for a Healthier You</p>
+            <a href="/products" class="btn btn-light btn-lg">Shop Now</a>
+        </div>
+    </section>
+
+
+    <!-- About Preview -->
+    <section class="py-5" style="background-color: var(--white);">
+        <div class="container">
+            <div class="row align-items-center gy-4 gx-lg-5">
+                <div class="col-md-6">
+                    <h2 class="display-6 fw-bold mb-4">Why Choose Nivee Amla Juice?</h2>
+                    <p class="lead text-muted mb-4">At Nivee Juices, we are committed to providing you with the
+                        finest natural amla juice. Our
+                        Nivee Amla Juice is carefully crafted from high-quality amla, sourced from trusted growers, and
+                        processed to retain its natural goodness.</p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> 100% Natural Amla Extract
+                        </li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> No Added Preservatives
+                        </li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Rich in Vitamin C</li>
+                        <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Supports Immunity &
+                            Digestion</li>
+                    </ul>
+                    <a href="/about" class="btn btn-outline-primary btn-lg">Learn More</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <a href="/product/1">
+                            <img src="/images/about-hero.jpg" alt="Nivee Amla Juice Hero"
+                                class="img-fluid rounded shadow-lg w-100" style="max-height: 500px; object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+
+                    <!-- Contact Form -->
+                    <div class="admin-card">
+                        <h3 class="mb-4">Send us a Message</h3>
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Nivee Juices</h5>
+                    <p class="mb-1">No 7/F/11, Muthunaal Main</p>
+                    <p class="mb-1">Surankottai, Ramanathapuram District,</p>
+                    <p class="mb-0">Tamil Nadu, India - 623504</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <p class="mb-1">Email: niveeamlajuices@gmail.com</p>
+                    <p class="mb-0">Phone: +91 9988330544</p>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links d-flex justify-content-center gap-3 mt-3">
+                        <a href="https://www.facebook.com/people/Nivee-Amla/pfbid02zaMCLJ8NgFNBjZdYvRqVmJaXD6wn28gfLUiQbo2pvUU3jyiL9TQHTSSuh3EYNnczl/"
+                            target="_blank" class="fs-4"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/niveeamlajuice" target="_blank" class="fs-4"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919988330544" target="_blank" class="fs-4"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4" style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2026 Nivee Juices. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
